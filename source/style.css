@@ -1,3 +1,22 @@
+:root {
+  --primary-color: tan;
+  --border: 1px solid black;
+}
+
 body {
   background: lightgoldenrodyellow;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+  border: var(--border);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  font-size: 26px;
 }
